@@ -6,7 +6,7 @@ import NavButton from './NavButton.js';
 
 function Nav(props) {
   return (<nav>
-    <Link to="/">
+    <Link to="/portfolio-page">
       <p className="nav-home">Intro</p>
     </Link>
     <NavLinks />
