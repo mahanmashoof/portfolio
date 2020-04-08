@@ -1,0 +1,25 @@
+import React from 'react';
+import './../App.css';
+import {Link} from 'react-router-dom';
+
+function NavLinks() {
+  return(
+    <div>
+      <ul className="nav-links">
+        <Link to="/webdev">
+          <li className="nav-link">Web development</li>
+        </Link>
+        <li className="nav-link">|</li>
+        <Link to="/mecheng">
+          <li className="nav-link">Mechanical Engineering</li>
+        </Link>
+        <li className="nav-link">|</li>
+        <Link to="/hobbies">
+          <li className="nav-link">Hobbies</li>
+        </Link>
+      </ul>
+    </div>
+  );
+}
+
+export default NavLinks;
