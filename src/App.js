@@ -31,10 +31,10 @@ class App extends Component {
         <Nav drawerClickHandler={this.drawerToggleClickHandler} />
         {slideDrawer}
         <Switch>
-          <Route path="/portfolio-page" exact component={Home}/>
-          <Route path="/portfolio-page/webdev" component={WebDevelopment}/>
-          <Route path="/portfolio-page/mecheng" component={MechanicalEngineering}/>
-          <Route path="/portfolio-page/hobbies" component={Hobbies}/>
+          <Route path="/" exact component={Home}/>
+          <Route path="/webdev" component={WebDevelopment}/>
+          <Route path="/mecheng" component={MechanicalEngineering}/>
+          <Route path="/hobbies" component={Hobbies}/>
         </Switch>
         <Footer />
       </div>
