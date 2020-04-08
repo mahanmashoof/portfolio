@@ -6,14 +6,14 @@ function SlideDrawer(props) {
   return (<div>
     <nav className="slide-drawer">
       <ul>
-        <Link to="/webdev">
-          <li>Web development</li>
+        <Link to="/webdev" onClick={props.drawerClickHandler}>
+          <li><h4>Web development</h4></li>
         </Link>
-        <Link to="/mecheng">
-          <li>Mechanical Engineering</li>
+        <Link to="/mecheng" onClick={props.drawerClickHandler}>
+          <li><h4>Mechanical Engineering</h4></li>
         </Link>
-        <Link to="/hobbies">
-          <li>Hobbies</li>
+        <Link to="/hobbies" onClick={props.drawerClickHandler}>
+          <li><h4>Hobbies</h4></li>
         </Link>
 
         {/* <li>

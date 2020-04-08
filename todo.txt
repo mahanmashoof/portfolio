@@ -2,9 +2,10 @@ palette: #FFF, #000, #0CC79A, #FC9F1C
 fonts:  headers: 'Raleway', sans-serif
         text: 'Roboto Slab', serif
 
-deploy
----
+*main components that can be reused in other pages
+--- should: ---
 *add FEA + drw as a slide
 *add companies as a slides
+--- could: ---
 *homepage header typed in letter by letter effect
 *css files for all components
