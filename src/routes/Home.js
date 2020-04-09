@@ -50,7 +50,7 @@ function Home() {
     byePhrase = "it's " + day + " already btw 😬"
   }
 
-  return (<div>
+  return (<div className="full-page-home">
     <div className="container">
       <div className="home-opening">
         <div className="center-text">

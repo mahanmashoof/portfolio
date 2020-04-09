@@ -3,7 +3,7 @@ import './Hobbies.css';
 
 function Hobbies() {
   return (
-    <div className="temp-main">
+    <div className="full-page">
       <h1 className="temp-up">Hobbies page..</h1>
       <h1 className="temp-down">..coming soon</h1>
     </div>

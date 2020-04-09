@@ -2,6 +2,7 @@ palette: #FFF, #000, #0CC79A, #FC9F1C
 fonts:  headers: 'Raleway', sans-serif
         text: 'Roboto Slab', serif
 
+*main page 100% height
 *main components that can be reused in other pages
 --- should: ---
 *add FEA + drw as a slide

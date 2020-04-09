@@ -3,7 +3,7 @@ import React from 'react';
 
 function WebDevelopment() {
   return (
-    <div className="temp-main">
+    <div className="full-page">
       <h1 className="temp-up">Web Development page..</h1>
       <h1 className="temp-down">..coming soon</h1>
     </div>

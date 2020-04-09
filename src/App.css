@@ -46,9 +46,14 @@ p {
   padding: 0 3%;
 }
 
+.full-page-home {
+  min-height: 85vh;
+}
+
 .home-hr {
-  border: 2px solid #FC9F1C 10%;
+  /* border: 1px solid #FC9F1C; */
   margin: 3rem 15%;
+  background-color: #FC9F1C;
 }
 
 .home-heading {
