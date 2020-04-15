@@ -5,14 +5,14 @@ import './HomePicLink.css';
 function HomePicLink() {
   return (<div className="row">
     <div className="col-4 col-md-2 img1">
-      <Link to="/webdev"><img className="img-link" alt="" src="https://i.ibb.co/QM3fkfD/VVV.jpg"/>
+      <Link to="/webdev"><img className="img-link" alt="" src="https://i.ibb.co/V0yxvNb/VVV.jpg"/>
       <div className="overlay">
         <div className="overlay-text"><p>Web Development</p></div>
       </div>
       </Link>
     </div>
     <div className="col-4 col-md-2 img1">
-      <Link to="/mecheng"><img className="img-link" alt="" src="https://i.ibb.co/xgd3HNz/cad2.png"/>
+      <Link to="/mecheng"><img className="img-link" alt="" src="https://i.ibb.co/qDdfnnn/cad4.png"/>
       <div className="overlay">
         <div className="overlay-text"><p>3D Design & Product Development</p></div>
       </div>
@@ -40,7 +40,7 @@ function HomePicLink() {
       </Link>
     </div>
     <div className="col-4 col-md-2 img1">
-      <Link to="/projects"><img className="img-link" alt="" src="https://i.ibb.co/q5tMTCm/proj1.jpg"/>
+      <Link to="/projects"><img className="img-link" alt="" src="https://i.ibb.co/bvYcNqk/proj1.jpg"/>
       <div className="overlay">
         <div className="overlay-text"><p>Carpentry & other Projects</p></div>
       </div>
