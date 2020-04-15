@@ -3,7 +3,7 @@ import './App.css';
 import Nav from './components/Nav.js';
 import WebDevelopment from './routes/WebDevelopment.js';
 import MechanicalEngineering from './routes/MechanicalEngineering.js';
-import Hobbies from './routes/Hobbies.js';
+import Projects from './routes/Projects.js';
 import Home from './routes/Home.js';
 import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
 import SlideDrawer from './components/SlideDrawer.js';
@@ -34,7 +34,7 @@ class App extends Component {
           <Route path="/" exact component={Home}/>
           <Route path="/webdev" component={WebDevelopment}/>
           <Route path="/mecheng" component={MechanicalEngineering}/>
-          <Route path="/hobbies" component={Hobbies}/>
+          <Route path="/projects" component={Projects}/>
         </Switch>
         <Footer />
       </div>

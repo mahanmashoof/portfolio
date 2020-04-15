@@ -2,6 +2,5 @@
   max-height: 320px;
   max-width: 600px;
   position: relative;
-  margin: auto auto 0;
-  margin-bottom: 3rem;
+  margin: 3rem auto;
 }

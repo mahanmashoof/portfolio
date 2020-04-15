@@ -14,8 +14,8 @@ function NavLinks() {
           <li className="nav-link">Mechanical Engineering</li>
         </Link>
         <li className="nav-link">|</li>
-        <Link to="/hobbies">
-          <li className="nav-link">Hobbies</li>
+        <Link to="/projects">
+          <li className="nav-link">Projects</li>
         </Link>
       </ul>
     </div>

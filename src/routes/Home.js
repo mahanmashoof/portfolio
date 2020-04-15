@@ -2,6 +2,7 @@ import React from 'react';
 import './../App.css';
 import HomeSlideshow from './../components/HomeSlideshow.js';
 import Resume from './../components/Resume.js';
+import HomePicLink from './../components/HomePicLink.js';
 
 function Home() {
 
@@ -63,10 +64,11 @@ function Home() {
             -</p>
         </div>
         <div className="center-image">
-          <img className="image" src="https://i.ibb.co/0KT0SyL/Mahan.jpg" alt=""/>
+          <img className="image" src="https://i.ibb.co/16r4BBb/IMG-20181017-WA0116.jpg" alt=""/>
         </div>
       </div>
-      <hr className="home-hr"/>
+      {/* <hr className="home-hr"/> */}
+      <HomePicLink />
       <HomeSlideshow/>
       <Resume />
     </div>

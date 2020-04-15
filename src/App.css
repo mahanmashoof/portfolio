@@ -64,13 +64,15 @@ p {
   padding: 3rem 0 0;
   display: flex;
   flex-wrap: wrap;
+  margin-bottom: 3rem;
 }
 
 .home-opening .image {
   width: 200px;
   border-radius: 50%;
   margin-right: 10%;
-  transform: scaleX(-1);
+  /* transform: scaleX(-1); */
+  /* filter: grayscale(100%); */
 }
 
 .nav-home, .nav-link {

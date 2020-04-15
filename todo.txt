@@ -3,6 +3,7 @@ fonts:  headers: 'Raleway', sans-serif
         text: 'Roboto Slab', serif
 
 *main components that can be reused in other pages
+*hightech pic icons that also link to routes
 --- should: ---
 *add FEA + drw as a slide
 *add companies as a slides

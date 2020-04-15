@@ -1,13 +1,13 @@
 import React from 'react';
-import './Hobbies.css';
+import './Projects.css';
 
-function Hobbies() {
+function Projects() {
   return (
     <div className="full-page">
-      <h1 className="temp-up">Hobbies page..</h1>
+      <h1 className="temp-up">Projects page..</h1>
       <h1 className="temp-down">..coming soon</h1>
     </div>
   );
 }
 
-export default Hobbies;
+export default Projects;
