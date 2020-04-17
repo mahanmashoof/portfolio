@@ -3,6 +3,7 @@ import './../App.css';
 import HomeSlideshow from './../components/HomeSlideshow.js';
 import Resume from './../components/Resume.js';
 import HomePicLink from './../components/HomePicLink.js';
+import PicLinkData from './../data/PicLinkData.jsx';
 
 function Home() {
 
@@ -11,13 +12,21 @@ function Home() {
   let timePhrase;
   let byePhrase;
 
-  const dayList = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
+  const dayList = [
+    "Sunday",
+    "Monday",
+    "Tuesday",
+    "Wednesday",
+    "Thursday",
+    "Friday",
+    "Saturday"
+  ];
   let day = dayList[dayNum];
 
   if (hours > 18) {
     timePhrase = "Hello, and ";
     byePhrase = "have a great " + day + " night 🌒"
-  } else if (hours > 13) {
+  } else if (hours > 12) {
     timePhrase = "Good afternoon, and ";
     byePhrase = "have a great " + day + " evening "
   } else if (hours > 10) {
@@ -29,6 +38,10 @@ function Home() {
   } else {
     timePhrase = "It's late at night 😴 ";
     byePhrase = "it's " + day + " already btw 😬"
+  }
+
+  function picLinkDataMap(picLinks) {
+    return <HomePicLink key={picLinks.id} destination={picLinks.dest} picSource={picLinks.pic} imgText={picLinks.img}/>
   }
 
   return (<div className="full-page-home">
@@ -47,10 +60,17 @@ function Home() {
           <img className="image" src="https://i.ibb.co/16r4BBb/IMG-20181017-WA0116.jpg" alt=""/>
         </div>
       </div>
-      {/* <hr className="home-hr"/> */}
-      <HomePicLink />
+      <div className="row">
+        {PicLinkData.map(picLinkDataMap)}
+        {/* <HomePicLink destination={PicLinkData[0].dest} picSource={PicLinkData[0].pic} imgText={PicLinkData[0].img}/>
+        <HomePicLink destination={PicLinkData[1].dest} picSource={PicLinkData[1].pic} imgText={PicLinkData[1].img}/>
+        <HomePicLink destination={PicLinkData[2].dest} picSource={PicLinkData[2].pic} imgText={PicLinkData[2].img}/>
+        <HomePicLink destination={PicLinkData[3].dest} picSource={PicLinkData[3].pic} imgText={PicLinkData[3].img}/>
+        <HomePicLink destination={PicLinkData[4].dest} picSource={PicLinkData[4].pic} imgText={PicLinkData[4].img}/>
+        <HomePicLink destination={PicLinkData[5].dest} picSource={PicLinkData[5].pic} imgText={PicLinkData[5].img}/> */}
+      </div>
       <HomeSlideshow/>
-      <Resume />
+      <Resume/>
     </div>
   </div>);
 }

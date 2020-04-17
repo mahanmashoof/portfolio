@@ -50,12 +50,6 @@ p {
   min-height: 85vh;
 }
 
-.home-hr {
-  /* border: 1px solid #FC9F1C; */
-  margin: 3rem 15%;
-  background-color: #FC9F1C;
-}
-
 .home-heading {
   padding-bottom: 1rem;
 }
