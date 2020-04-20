@@ -1,4 +1,4 @@
-const picLinkData = [
+const HomePicLinkData = [
   {
     id:1,
     dest: "/webdev",
@@ -37,4 +37,4 @@ const picLinkData = [
   }
 ];
 
-export default picLinkData;
+export default HomePicLinkData;

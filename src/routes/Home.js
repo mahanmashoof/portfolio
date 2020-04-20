@@ -3,7 +3,7 @@ import './../App.css';
 import HomeSlideshow from './../components/HomeSlideshow.js';
 import Resume from './../components/Resume.js';
 import HomePicLink from './../components/HomePicLink.js';
-import PicLinkData from './../data/PicLinkData.jsx';
+import HomePicLinkData from './../data/HomePicLinkData.jsx';
 
 function Home() {
 
@@ -61,13 +61,14 @@ function Home() {
         </div>
       </div>
       <div className="row">
-        {PicLinkData.map(picLinkDataMap)}
-        {/* <HomePicLink destination={PicLinkData[0].dest} picSource={PicLinkData[0].pic} imgText={PicLinkData[0].img}/>
-        <HomePicLink destination={PicLinkData[1].dest} picSource={PicLinkData[1].pic} imgText={PicLinkData[1].img}/>
-        <HomePicLink destination={PicLinkData[2].dest} picSource={PicLinkData[2].pic} imgText={PicLinkData[2].img}/>
-        <HomePicLink destination={PicLinkData[3].dest} picSource={PicLinkData[3].pic} imgText={PicLinkData[3].img}/>
-        <HomePicLink destination={PicLinkData[4].dest} picSource={PicLinkData[4].pic} imgText={PicLinkData[4].img}/>
-        <HomePicLink destination={PicLinkData[5].dest} picSource={PicLinkData[5].pic} imgText={PicLinkData[5].img}/> */}
+        {HomePicLinkData.map(picLinkDataMap)}
+        {/* Ref, don't remove! */}
+        {/* <HomePicLink destination={HomePicLinkData[0].dest} picSource={HomePicLinkData[0].pic} imgText={HomePicLinkData[0].img}/>
+        <HomePicLink destination={HomePicLinkData[1].dest} picSource={HomePicLinkData[1].pic} imgText={HomePicLinkData[1].img}/>
+        <HomePicLink destination={HomePicLinkData[2].dest} picSource={HomePicLinkData[2].pic} imgText={HomePicLinkData[2].img}/>
+        <HomePicLink destination={HomePicLinkData[3].dest} picSource={HomePicLinkData[3].pic} imgText={HomePicLinkData[3].img}/>
+        <HomePicLink destination={HomePicLinkData[4].dest} picSource={HomePicLinkData[4].pic} imgText={HomePicLinkData[4].img}/>
+        <HomePicLink destination={HomePicLinkData[5].dest} picSource={HomePicLinkData[5].pic} imgText={HomePicLinkData[5].img}/> */}
       </div>
       <HomeSlideshow/>
       <Resume/>

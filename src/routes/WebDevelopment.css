@@ -20,14 +20,3 @@ h1 img {
 .heading {
   margin: 3rem 0;
 }
-
-.webdev-img {
-  transition: 0.8s;
-  max-width: 100%;
-  margin: 0.5rem 0;
-}
-
-.webdev-img:hover {
-  transform: scale(1.05);
-  box-shadow: 0 0 10px 5px #FC9F1C;
-}
