@@ -6,7 +6,7 @@ function Projects() {
   return (
     <div className="full-page">
       <div className="container">
-        <h1 className="heading">Personal Hobby Projects</h1>
+        <h1 className="heading">Personal Hobby Projects <span role="img" aria-label="hammer">🔨</span></h1>
         <ProjectsCard />
         <pre>Material coming soon..</pre>
       </div>
