@@ -6,7 +6,7 @@ import WebPicLinkData from './../data/WebPicLinkData.jsx';
 function WebDevelopment() {
   return (<div className="full-page">
     <div className="container">
-      <h1 className="heading">Web Applications<span role="img" aria-label="web">🕸️</span>
+      <h1 className="heading">Web Development projects<span role="img" aria-label="web">🕸️</span>
         {/* <a href="https://www.lewagon.com/" target="_blank" rel="noopener noreferrer"><img alt="" src="https://pbs.twimg.com/profile_images/707978249138262016/aroNL4k3_400x400.jpg"/></a> */}
       </h1>
       <div className="icons">

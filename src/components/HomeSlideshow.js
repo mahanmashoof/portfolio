@@ -11,7 +11,7 @@ function HomeSlideshow() {
       </Carousel.Item>
 
       <Carousel.Item>
-        <img className="d-block w-100 slideshow-container" src="https://i.ibb.co/ZBMjgzD/web-sw.png" alt="Second slide"/>
+        <img className="d-block w-100 slideshow-container" src="https://i.ibb.co/CHcZLXm/web-sw-white-bg.png" alt="Second slide"/>
       </Carousel.Item>
 
       <Carousel.Item>
@@ -19,7 +19,7 @@ function HomeSlideshow() {
       </Carousel.Item>
 
       <Carousel.Item>
-        <img className="d-block w-100 slideshow-container" src="https://i.ibb.co/mXhbBBw/cad-sw.png" alt="Third slide"/>
+        <img className="d-block w-100 slideshow-container" src="https://i.ibb.co/KqMhhcJ/cad-sw-white-bg.png" alt="Third slide"/>
       </Carousel.Item>
     </Carousel>);
 }
