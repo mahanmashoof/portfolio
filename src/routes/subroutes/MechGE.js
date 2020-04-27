@@ -2,7 +2,7 @@ import React from 'react';
 import './MechGE.css';
 // import MechPicLinkData from './../../data/MechPicLinkData.jsx';
 
-function MechanicalEngineering() {
+function MechGE() {
   return (<div className="full-page">
     <div className="container">
       <h1 className="heading">GENTrace</h1>
@@ -11,4 +11,4 @@ function MechanicalEngineering() {
   </div>);
 }
 
-export default MechanicalEngineering;
+export default MechGE;

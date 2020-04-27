@@ -2,7 +2,7 @@ import React from 'react';
 import './MechPrevas.css';
 // import MechPicLinkData from './../../data/MechPicLinkData.jsx';
 
-function MechanicalEngineering() {
+function MechPrevs() {
   return (<div className="full-page">
     <div className="container">
       <h1 className="heading">Engineering Consultant 2010 - 2017</h1>
@@ -11,4 +11,4 @@ function MechanicalEngineering() {
   </div>);
 }
 
-export default MechanicalEngineering;
+export default MechPrevs;

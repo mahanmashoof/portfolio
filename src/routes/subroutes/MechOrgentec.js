@@ -2,7 +2,7 @@ import React from 'react';
 import './MechOrgentec.css';
 // import MechPicLinkData from './../../data/MechPicLinkData.jsx';
 
-function MechanicalEngineering() {
+function MechOrgentec() {
   return (<div className="full-page">
     <div className="container">
       <h1 className="heading">Alegria II</h1>
@@ -11,4 +11,4 @@ function MechanicalEngineering() {
   </div>);
 }
 
-export default MechanicalEngineering;
+export default MechOrgentec;

@@ -2,7 +2,7 @@ import React from 'react';
 import './MechSafegate.css';
 // import MechPicLinkData from './../../data/MechPicLinkData.jsx';
 
-function MechanicalEngineering() {
+function MechSafegate() {
   return (<div className="full-page">
     <div className="container">
       <h1 className="heading">IDM 2051</h1>
@@ -11,4 +11,4 @@ function MechanicalEngineering() {
   </div>);
 }
 
-export default MechanicalEngineering;
+export default MechSafegate;
