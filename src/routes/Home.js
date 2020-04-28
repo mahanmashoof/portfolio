@@ -50,8 +50,8 @@ function Home() {
         <div className="center-text">
           <h3 className="home-heading">{timePhrase}
             welcome to my page!</h3>
-          <p>My name is Mahan, a Mechanical engineer and Web developer living in</p>
-          <p>Rio de Janeiro <img alt="" className="nation__flag" src="https://cdn.countryflags.com/thumbs/brazil/flag-round-250.png"/> & Stockholm <img alt="" className="nation__flag" src="https://cdn1.iconfinder.com/data/icons/flags-of-the-world-2/128/sweden-circle-512.png"/></p>
+          <p>My name is Mahan, a Mechanical engineer and Web developer.</p>
+          {/* <p>Rio de Janeiro <img alt="" className="nation__flag" src="https://cdn.countryflags.com/thumbs/brazil/flag-round-250.png"/> & Stockholm <img alt="" className="nation__flag" src="https://cdn1.iconfinder.com/data/icons/flags-of-the-world-2/128/sweden-circle-512.png"/></p> */}
           <p>Feel free to navigate this page to see my work and hopefully know me better.</p>
           <p>If there's any thing I can help you with, don't hesitate to contact me with your questions!</p>
           <p className="bye-phrase">- {byePhrase}
