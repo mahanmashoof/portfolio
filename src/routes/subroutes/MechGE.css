@@ -1,1 +1,48 @@
+hr {
+  width: 50%;
+  background-color: #FC9F1C;
+  margin: 5rem 25%;
+}
 
+.description {
+  max-width: 70%;
+}
+
+.explaining {
+  display: flex;
+  margin: 3rem 0;
+  flex-wrap: wrap;
+  border: 1px solid #FC9F1C;
+  padding: 1rem 0;
+  border-radius: 5px;
+}
+
+.heading {
+  margin-bottom: 1rem;
+}
+
+.left {
+  text-align: left;
+}
+
+.space {
+  margin: 1rem 0;
+}
+
+.subroute-img {
+  max-width: 100%;
+  border-radius: 2%;
+  margin-bottom: 1rem;
+  border: 3px solid #FC9F1C;
+}
+
+.text-link {
+  color: #0CC79A !important;
+}
+
+@media (max-width: 768px) {
+  .description {
+    max-width: 100%;
+    padding: 0 1rem;
+  }
+}

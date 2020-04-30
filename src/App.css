@@ -34,11 +34,7 @@ p {
   font-weight: 200;
 }
 
-.center-image {
-  margin: auto;
-}
-
-.center-text {
+.center-image, .center-text {
   margin: auto;
 }
 
