@@ -17,6 +17,14 @@ hr {
   border-radius: 5px;
 }
 
+.every-other-img {
+  order: 2;
+}
+
+.every-other-text {
+  order: 1;
+}
+
 .heading {
   margin-bottom: 1rem;
 }
@@ -44,5 +52,11 @@ hr {
   .description {
     max-width: 100%;
     padding: 0 1rem;
+  }
+  .every-other-img {
+    order: 1;
+  }
+  .every-other-text {
+    order: 2;
   }
 }

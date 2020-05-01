@@ -18,7 +18,8 @@ function MechGE() {
       <hr/>
 
       <h3>My Contribution</h3>
-      <p>New <strong>Side cabinet</strong> containing a <strong>Radio Frequency Unit</strong>, a <strong>Water Cooling Unit</strong>, and the rest of the control units needed for the cyclotron</p>
+      <p>As a consultant at <a className="text-link" target="_blank" rel="noopener noreferrer" href="https://www.prevas.se/">Prevas AB</a>, I was contracted by GE Healthcare 2013-2015</p>
+      <p>My mission was to develop a new <strong>Side cabinet</strong> for the cyclotron containing a <strong>Radio Frequency Unit</strong>, a <strong>Water Cooling Unit</strong>, and the rest of the control units needed for the cyclotron</p>
       <div className="explaining">
         <div className="center-image">
           <img alt="" src="https://www.nde-ed.org/EducationResources/HighSchool/Radiography/Graphics/Cyclotron.png"></img>
@@ -26,25 +27,25 @@ function MechGE() {
         <div className="center-text description">
           <p className="space"></p>
           <p><strong>Radio Frequency Unit</strong></p>
-          <p>Alternating high voltage device creating an oscillating electric field that accelerates particles.</p>
+          <p>An alternating high voltage device, creating an oscillating electric field that accelerates particles.</p>
           <p>Some challanges developing this unit with GE electric team was:</p>
           <div className="left">
             <ul>
               <li>Complex aluminum design and welding</li>
-              <li>Air cooling + CFD model</li>
+              <li>Air cooling + CFD</li>
               <li>FE Analysis on door due to usage of <a className="text-link" target="_blank" rel="noopener noreferrer" href="https://www.evaluationengineering.com/home/article/13014317/emc-gaskets-sealing-against-emi-and-the-environment">Gaskets</a> for enhanced EMC shielding</li>
             </ul>
           </div>
         </div>
       </div>
       <div className="explaining">
-        <div className="center-image">
+        <div className="center-image every-other-img">
           <img alt="" src="https://i.ibb.co/svnjb1s/ge-wcu.png"></img>
         </div>
-        <div className="center-text description">
+        <div className="center-text description every-other-text">
           <p className="space"></p>
           <p><strong>Water Cooling Unit</strong></p>
-          <p>Alternating high voltage means a lot of friction and hence the need of much cooling. This unit is placed in the Side cabinet as a full servicable drawer unit and connected by hoses to the back side of the cyclotron (pic) where it gets further distributed.</p>
+          <p>Alternating high voltage means a lot of friction and hence the need of much cooling. The Water Cooling Unit is placed inside the Cabinet as a full servicable drawer and is connected by hoses to the back side of the cyclotron (pic) for further distribution.</p>
           <p>Some challanges developing this unit with GE advanced engineering team was:</p>
           <div className="left">
             <ul>
@@ -62,7 +63,7 @@ function MechGE() {
         <div className="center-text description">
           <p className="space"></p>
           <p><strong>Side cabinet and Flexible positioning solution</strong></p>
-          <p>This cabinet managed to be both Lighter, Smaller and Cheaper than its previous model <a className="text-link" target="_blank" rel="noopener noreferrer" href="http://www3.gehealthcare.com/~/media/downloads/us/product/product-categories/moleculer%20imaging/pet%20radiopharmacy/cyclotrons/pt800%20cyclotron%20system%20data%20sheet%20rev3.pdf?Parent=%7B442067E1-C933-4B8E-8D5B-1DBC294ECE21%7D">(PETtrace)</a>. The main reasons behind this accomplishment was the reduction of one of the main control units, mainly designed in sheet aluminum + FE Analysis and negotiation with new suppliers. On top, this cabinet is equipped with a telescopic cable- and hose canal, adjustable in 180° for maximum cabinet position flexibility for different hospital spaces.</p>
+          <p>This cabinet managed to be both Lighter, Smaller and Cheaper than its previous model <a className="text-link" target="_blank" rel="noopener noreferrer" href="http://www3.gehealthcare.com/~/media/downloads/us/product/product-categories/moleculer%20imaging/pet%20radiopharmacy/cyclotrons/pt800%20cyclotron%20system%20data%20sheet%20rev3.pdf?Parent=%7B442067E1-C933-4B8E-8D5B-1DBC294ECE21%7D">(PETtrace)</a>. Reasons behind this accomplishment was the reduction of one of the main control units, much design with sheet aluminum + FE Analysis, and negotiation with new suppliers. On top, this cabinet is equipped with a telescopic cable- and hose canal, adjustable in 180° for maximum cabinet position flexibility for different hospital spaces.</p>
           <p>Some challanges developing this unit was:</p>
           <div className="left">
             <ul>
@@ -90,7 +91,7 @@ function MechGE() {
       </div>
     </div>
     <div className="icons">
-      <a target="_blank" rel="noopener noreferrer" href="https://www.gehealthcare.com/"><img className="icon" alt="ge-icon" src="https://lh3.googleusercontent.com/proxy/QIaHizXedKLlF3QCu202bQQfMKjesAxVTpl1pP-GntjBQl8IC0FBg13pWTgc_YInMK0_K2HR_inA0kdExSRyOLUCW4Y4iwQ1RWA8N3RJd72ICpj-PNE7bWQNAhtBGU24qFLWYv_eRNYn-K3WDJRq95bwFqM"/></a>
+      <a target="_blank" rel="noopener noreferrer" href="https://www.gehealthcare.com/"><img className="icon" alt="ge-icon" src="https://aatg.energy/wp-content/uploads/2016/03/general-electric-logo.png"/></a>
       <a target="_blank" rel="noopener noreferrer" href="https://www.prevas.se/"><img className="icon" alt="prevas-icon" src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcT-D_xL6yUfXXXdXEH2w8cgu4-NNGlLx15WMtJsVI8iwva267fU&usqp=CAU"/></a>
     </div>
   </div>);
