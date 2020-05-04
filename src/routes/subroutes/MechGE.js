@@ -1,5 +1,5 @@
 import React from 'react';
-import './MechGE.css';
+import './Mech.css';
 // import MechPicLinkData from './../../data/MechPicLinkData.jsx';
 
 function MechGE() {
@@ -27,12 +27,11 @@ function MechGE() {
         <div className="center-text description">
           <p className="space"></p>
           <p><strong>Radio Frequency Unit</strong></p>
-          <p>An alternating high voltage device, creating an oscillating electric field that accelerates particles.</p>
-          <p>Some challanges developing this unit with GE electric team was:</p>
+          <p>An alternating high voltage device, creating an oscillating electric field that accelerates particles. For this module I worked closely with GE electrical team.</p>
           <div className="left">
             <ul>
-              <li>Complex aluminum design and welding</li>
-              <li>Air cooling + CFD</li>
+              <li>Designed with aluminum sheet metal complex welding solutions</li>
+              <li>CFD modeling for air cooling</li>
               <li>FE Analysis on door due to usage of <a className="text-link" target="_blank" rel="noopener noreferrer" href="https://www.evaluationengineering.com/home/article/13014317/emc-gaskets-sealing-against-emi-and-the-environment">Gaskets</a> for enhanced EMC shielding</li>
             </ul>
           </div>
@@ -45,13 +44,12 @@ function MechGE() {
         <div className="center-text description every-other-text">
           <p className="space"></p>
           <p><strong>Water Cooling Unit</strong></p>
-          <p>Alternating high voltage means a lot of friction and hence the need of much cooling. The Water Cooling Unit is placed inside the Cabinet as a full servicable drawer and is connected by hoses to the back side of the cyclotron (pic) for further distribution.</p>
-          <p>Some challanges developing this unit with GE advanced engineering team was:</p>
+          <p>Alternating high voltage means a lot of friction and hence the need of much cooling. The Water Cooling Unit is placed inside the Cabinet as a full servicable drawer and is connected by hoses to the back side of the cyclotron (pic) for further distribution. This unit was designed in cooperation with GE advanced engineering team.</p>
+          <p>Some challanges developing this unit  was:</p>
           <div className="left">
             <ul>
               <li>Design for best possible servicability</li>
-              <li>Possible leakage and condensation issues</li>
-              <li>Weight distribution and drainage possibilities</li>
+              <li>Solutions for possible leakage and condensation issues</li>
             </ul>
           </div>
         </div>
@@ -64,12 +62,11 @@ function MechGE() {
           <p className="space"></p>
           <p><strong>Side cabinet and Flexible positioning solution</strong></p>
           <p>This cabinet managed to be both Lighter, Smaller and Cheaper than its previous model <a className="text-link" target="_blank" rel="noopener noreferrer" href="http://www3.gehealthcare.com/~/media/downloads/us/product/product-categories/moleculer%20imaging/pet%20radiopharmacy/cyclotrons/pt800%20cyclotron%20system%20data%20sheet%20rev3.pdf?Parent=%7B442067E1-C933-4B8E-8D5B-1DBC294ECE21%7D">(PETtrace)</a>. Reasons behind this accomplishment was the reduction of one of the main control units, much design with sheet aluminum + FE Analysis, and negotiation with new suppliers. On top, this cabinet is equipped with a telescopic cable- and hose canal, adjustable in 180° for maximum cabinet position flexibility for different hospital spaces.</p>
-          <p>Some challanges developing this unit was:</p>
           <div className="left">
             <ul>
-              <li>Keeping the weight low</li>
-              <li>Manage good servicability in tight spaces</li>
-              <li>Cabinet position flexibility vs Cyclotron</li>
+              <li>Low weight cabinet</li>
+              <li>Good servicability in tight spaces</li>
+              <li>Good position flexibility vs Cyclotron</li>
             </ul>
           </div>
         </div>
