@@ -116,7 +116,7 @@ function MechSSC() {
       </div>
     </div>
     <div className="icons">
-      <a target="_blank" rel="noopener noreferrer" href="https://www.gehealthcare.com/"><img className="icon" alt="ge-icon" src="https://aatg.energy/wp-content/uploads/2016/03/general-electric-logo.png"/></a>
+      <a target="_blank" rel="noopener noreferrer" href="https://www.sscspace.com/"><img className="icon" alt="ssc-icon" src="https://seekvectorlogo.com/wp-content/uploads/2018/03/ssc-swedish-space-corporation-vector-logo.png"/></a>
       <a target="_blank" rel="noopener noreferrer" href="https://www.prevas.se/"><img className="icon" alt="prevas-icon" src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcT-D_xL6yUfXXXdXEH2w8cgu4-NNGlLx15WMtJsVI8iwva267fU&usqp=CAU"/></a>
     </div>
   </div>);
