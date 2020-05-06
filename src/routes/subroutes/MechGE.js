@@ -19,7 +19,7 @@ function MechGE() {
 
       <h3>My Contribution</h3>
       <p>As a consultant at <a className="text-link" target="_blank" rel="noopener noreferrer" href="https://www.prevas.se/">Prevas AB</a>, I was contracted by GE Healthcare 2013-2015</p>
-      <p>My mission was to develop a new <strong>Side cabinet</strong> for the cyclotron containing a <strong>Radio Frequency Unit</strong>, a <strong>Water Cooling Unit</strong>, and the rest of the control units needed for the cyclotron</p>
+      <p>My mission was to develop a new <strong>Side cabinet</strong> for the GENtrace cyclotron containing a <strong>Radio Frequency Unit</strong>, a <strong>Water Cooling Unit</strong>, and the rest of the control units needed for the cyclotron</p>
       <div className="explaining">
         <div className="center-image">
           <img alt="" src="https://www.nde-ed.org/EducationResources/HighSchool/Radiography/Graphics/Cyclotron.png"></img>
@@ -30,7 +30,7 @@ function MechGE() {
           <p>An alternating high voltage device, creating an oscillating electric field that accelerates particles. For this module I worked closely with GE electrical team.</p>
           <div className="left">
             <ul>
-              <li>Designed with aluminum sheet metal complex welding solutions</li>
+              <li>Designed with aluminum sheet metal and complex welding solutions</li>
               <li>CFD modeling for air cooling</li>
               <li>FE Analysis on door due to usage of <a className="text-link" target="_blank" rel="noopener noreferrer" href="https://www.evaluationengineering.com/home/article/13014317/emc-gaskets-sealing-against-emi-and-the-environment">Gaskets</a> for enhanced EMC shielding</li>
             </ul>
@@ -45,11 +45,10 @@ function MechGE() {
           <p className="space"></p>
           <p><strong>Water Cooling Unit</strong></p>
           <p>Alternating high voltage means a lot of friction and hence the need of much cooling. The Water Cooling Unit is placed inside the Cabinet as a full servicable drawer and is connected by hoses to the back side of the cyclotron (pic) for further distribution. This unit was designed in cooperation with GE advanced engineering team.</p>
-          <p>Some challanges developing this unit  was:</p>
           <div className="left">
             <ul>
-              <li>Design for best possible servicability</li>
-              <li>Solutions for possible leakage and condensation issues</li>
+              <li>Designed for best possible servicability</li>
+              <li>Solutions for leakage and condensation issues</li>
             </ul>
           </div>
         </div>

@@ -3,7 +3,7 @@ import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
 import {faDownload} from "@fortawesome/free-solid-svg-icons";
 
 function Resume() {
-  return (<div className="row">
+  return (<div id="resume" className="row">
     <div className="col">
       <a href="./../Resume_Mahan_Mashoof_Eng.doc" type="button" className="btn btn-dark btn-block" download><FontAwesomeIcon className="icon" icon={faDownload} size="1x"/>Resume (Eng)</a>
     </div>

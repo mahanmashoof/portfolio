@@ -1,5 +1,5 @@
 import React from 'react';
-import './MechanicalEngineering.css';
+import './../App.css';
 import MechEngCard from './../components/mecheng/MechEngCard.js';
 import MechPicLinkData from './../data/MechPicLinkData.jsx';
 
@@ -14,7 +14,7 @@ function MechanicalEngineering() {
       <h1 className="heading">Achievments in Mechanical Engineering
         <span role="img" aria-label="gear">⚙️</span>
       </h1>
-      <div className="row">
+      <div className="row route-row">
         {MechPicLinkData.map(subRoutes)}
       </div>
     </div>

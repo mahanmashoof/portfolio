@@ -1,5 +1,5 @@
 import React from 'react';
-import './MechPrevas.css';
+import './Mech.css';
 // import MechPicLinkData from './../../data/MechPicLinkData.jsx';
 
 function MechPrevs() {

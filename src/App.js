@@ -9,6 +9,8 @@ import Orgentec from './routes/subroutes/MechOrgentec.js';
 import Safegate from './routes/subroutes/MechSafegate.js';
 import TCTech from './routes/subroutes/MechTCTech.js';
 import Prevas from './routes/subroutes/MechPrevas.js';
+import Cadcrowd from './routes/subroutes/MechCadcrowd.js';
+import Tacton from './routes/subroutes/MechTacton.js';
 import Projects from './routes/Projects.js';
 import ProjShelf from './routes/subroutes/ProjShelf.js';
 import ProjRecSta from './routes/subroutes/ProjRecSta.js';
@@ -51,6 +53,8 @@ class App extends Component {
           <Route path="/mecheng/safegate" component={Safegate}/>
           <Route path="/mecheng/tctech" component={TCTech}/>
           <Route path="/mecheng/prevas" component={Prevas}/>
+          <Route path="/mecheng/cadcrowd" component={Cadcrowd}/>
+          <Route path="/mecheng/tacton" component={Tacton}/>
           <Route path="/projects" exact component={Projects}/>
           <Route path="/projects/shelf" component={ProjShelf}/>
           <Route path="/projects/trash&recycling" component={ProjRecSta}/>

@@ -52,7 +52,7 @@ function Home() {
             welcome to my page!</h3>
           <p>My name is Mahan, a Mechanical engineer and Web developer.</p>
           <p>Feel free to navigate this page to see my work and hopefully know me better.</p>
-          <p>If there's any thing I can help you with, don't hesitate to contact me with your questions!</p>
+          <p>If there's any thing I can help you with, don't hesitate to <a href="#resume" className="exception-link">contact me</a> with your questions!</p>
           <p className="bye-phrase">- {byePhrase}
             -</p>
         </div>

@@ -16,6 +16,10 @@ h1, h2, h3 {
   font-weight: 700;
 }
 
+h1 img {
+  max-height: 4rem;
+}
+
 nav {
   display: flex;
   align-items: center;
@@ -42,8 +46,27 @@ p {
   padding: 0 3%;
 }
 
+.exception-link {
+  color: #0CC79A !important;
+}
+
 .full-page-home {
   min-height: 85vh;
+}
+
+.heading {
+  margin: 3rem 0;
+}
+
+.icon {
+  max-height: 4rem;
+  border-radius: 50%;
+}
+
+.icons {
+  margin: 3rem 0 1rem;
+  display: flex;
+  justify-content: space-around;
 }
 
 .home-heading {
@@ -65,11 +88,6 @@ p {
   /* filter: grayscale(100%); */
 }
 
-.nation__flag {
-  border-radius: 50%;
-  height: 1.5rem;
-}
-
 .nav-home, .nav-link {
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
@@ -81,6 +99,10 @@ p {
   list-style: none;
   margin: 0 25px 0 0;
   padding: 0;
+}
+
+.route-row {
+  margin-bottom: 1rem;
 }
 
 @media (max-width: 768px) {

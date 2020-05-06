@@ -1,5 +1,5 @@
 import React from 'react';
-import './MechSafegate.css';
+import './Mech.css';
 // import MechPicLinkData from './../../data/MechPicLinkData.jsx';
 
 function MechSafegate() {
