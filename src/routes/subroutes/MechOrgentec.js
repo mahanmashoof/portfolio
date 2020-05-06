@@ -49,6 +49,7 @@ function MechOrgentec() {
               <li>Strip load capacity increased from 30 (Alegria) to 800</li>
               <li>Designed mainly with sheet metal and injection molded plastic</li>
               <li>Automatic scanning of strips</li>
+              <li>Stepper motor integration</li>
             </ul>
           </div>
         </div>
@@ -65,6 +66,7 @@ function MechOrgentec() {
             <ul>
               <li>Designed mainly with sheet metal and reinforced injection molded plastic</li>
               <li>Automatic scanning of test tubes</li>
+              <li>Improved user interface</li>
             </ul>
           </div>
         </div>
