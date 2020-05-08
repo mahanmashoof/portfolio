@@ -15,7 +15,7 @@ function MechSSC() {
 
       <h3>What is an Experiment rocket?</h3>
       <p>It's a vertical stack of some high-end experiment modules, designed to fit in a 17 inch cylinder to form a rocket. In case of Maser-12, these experiments took place under micro-gravity, meaning a launch to 250 KM, where during an 8-minute window, all tests are performed and further analyzed after landing. This video from Maser-14 explains this procedure very well:</p>
-      <iframe className="subroute-img" title="cyclotron-video" width="560" height="315" src="https://www.youtube.com/embed/hIwAeudKlXE"></iframe>
+      <iframe className="subroute-img" title="maser-video" width="560" height="315" src="https://www.youtube.com/embed/hIwAeudKlXE"></iframe>
 
       <hr/>
 

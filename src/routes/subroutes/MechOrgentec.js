@@ -13,7 +13,7 @@ function MechOrgentec() {
 
       <h3>What is serology?</h3>
       <p>When someone gets infected by e.g. a virus or bacteria (or even in case of autoimmune diseases), the body starts to produce antibodies as a response to that incoming alien protein. By analysing a patient's relevant body-fluid (blood, urine, etc) a machine like Alegria could through automatic chemical process sequences, diagnose a known illnes by detection of antibodies in a specifik patient body-fluid. This video shows an example of how it can be done through an ELISA method:</p>
-      <iframe className="subroute-img" title="cyclotron-video" width="560" height="315" src="https://www.youtube.com/embed/zR_xlV5v_f4"></iframe>
+      <iframe className="subroute-img" title="eliza-video" width="560" height="315" src="https://www.youtube.com/embed/zR_xlV5v_f4"></iframe>
 
       <hr/>
 
