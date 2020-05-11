@@ -40,7 +40,7 @@ function MechSSC() {
           <div className="left">
             <ul>
               <li>Analysis of Rocket cylindricity for making it match required tolerances</li>
-              <li>Optizing the cryostat cooling of XRMON-GF</li>
+              <li>Optimizing the chiller of XRMON-GF</li>
               <li>Positioning the sample melting oven</li>
               <li>Working in -35°C :)</li>
             </ul>
