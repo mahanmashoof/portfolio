@@ -44,7 +44,7 @@ function MechPrevs() {
       </div>
       <div className="explaining">
         <div className="center-image">
-          <img alt="" src="https://i.ibb.co/1XFhBMr/pricer.png"></img>
+          <img alt="" src="https://i.ibb.co/9NymRS2/pricer.png"></img>
         </div>
         <div className="center-text description">
           <p className="space"></p>
