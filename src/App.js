@@ -17,6 +17,7 @@ import ProjRecSta from './routes/subroutes/ProjRecSta.js';
 import ProjSink from './routes/subroutes/ProjSink.js';
 import ProjBg from './routes/subroutes/ProjBg.js';
 import ProjCrib from './routes/subroutes/ProjCrib.js';
+import ProjLaundry from './routes/subroutes/ProjLaundry.js';
 import Home from './routes/Home.js';
 import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
 import SlideDrawer from './components/SlideDrawer.js';
@@ -61,6 +62,7 @@ class App extends Component {
           <Route path="/projects/sink" component={ProjSink}/>
           <Route path="/projects/backgammon" component={ProjBg}/>
           <Route path="/projects/crib" component={ProjCrib}/>
+          <Route path="/projects/laundry" component={ProjLaundry}/>
         </Switch>
         <Footer />
       </div>

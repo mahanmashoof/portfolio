@@ -34,11 +34,11 @@ const WebPicLinkData = [
     imgSrc : "https://i.ibb.co/JnkRGvj/cadcrowd.jpg",
     dest: "/mecheng/cadcrowd"
   },
-  {
-    id:8,
-    imgSrc : "https://i.ibb.co/Rz4Mfff/tacton.png",
-    dest: "/mecheng/tacton"
-  }
+  // {
+  //   id:8,
+  //   imgSrc : "https://i.ibb.co/Rz4Mfff/tacton.png",
+  //   dest: "/mecheng/tacton"
+  // }
 ];
 
 export default WebPicLinkData;

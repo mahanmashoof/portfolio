@@ -10,6 +10,7 @@ function Projects() {
         <span role="img" aria-label="hammer">🔨</span>
       </h1>
       <div className="row route-row">
+        <ProjectsCard dest={ProjPicLinkData[5].dest} imgSrc={ProjPicLinkData[5].imgSrc}/>
         <ProjectsCard dest={ProjPicLinkData[2].dest} imgSrc={ProjPicLinkData[2].imgSrc}/>
         <ProjectsCard dest={ProjPicLinkData[3].dest} imgSrc={ProjPicLinkData[3].imgSrc}/>
         <ProjectsCard dest={ProjPicLinkData[4].dest} imgSrc={ProjPicLinkData[4].imgSrc}/>

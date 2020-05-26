@@ -1,12 +1,12 @@
 const ProjPicLinkData = [
   {
     id:1,
-    imgSrc : "https://i.ibb.co/vvVsVk0/shelf1.jpg",
+    imgSrc : "https://i.ibb.co/qrZwGcr/shelf1.jpg",
     dest: "/projects/shelf"
   },
   {
     id:2,
-    imgSrc : "https://i.ibb.co/m5rBNny/recycling-station-h.jpg",
+    imgSrc : "https://i.ibb.co/71crF6J/recycling-station-v.jpg",
     dest: "/projects/trash&recycling"
   },
   {
@@ -24,6 +24,11 @@ const ProjPicLinkData = [
     imgSrc : "https://i.ibb.co/PMGHmMF/crib-16-9.jpg",
     dest: "/projects/crib"
   },
+  {
+    id:6,
+    imgSrc : "https://i.ibb.co/c8Gx9hW/laundry-cabinet.jpg",
+    dest: "/projects/laundry"
+  }
 ];
 
 export default ProjPicLinkData;
