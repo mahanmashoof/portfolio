@@ -23,7 +23,7 @@ function Footer() {
       <a href="https://github.com/mahanmashoof" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon className="icon" icon={faGithubSquare} size="2x"/></a>
       <a href="https://api.whatsapp.com/send?phone=+46735956610"><FontAwesomeIcon className="icon" icon={faWhatsappSquare} size="2x"/></a>
       <a href="mailto: mahan.mashoof@gmail.com"><FontAwesomeIcon className="icon" icon={faEnvelope} size="2x"/></a>
-      <a href="tel:+5521995060958"><FontAwesomeIcon className="icon" icon={faMobileAlt} size="2x"/></a>
+      <a href="tel:+46766920960"><FontAwesomeIcon className="icon" icon={faMobileAlt} size="2x"/></a>
     </div>
     <p className="foot-text">Mahan Mashoof © {yearSpan}</p>
   </div>);
