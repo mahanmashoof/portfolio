@@ -84,8 +84,8 @@ p {
   width: 200px;
   border-radius: 50%;
   margin-right: 10%;
-  /* transform: scaleX(-1); */
-  /* filter: grayscale(100%); */
+  transform: scaleX(-1);
+  filter: grayscale(30%);
 }
 
 .nav-home, .nav-link {

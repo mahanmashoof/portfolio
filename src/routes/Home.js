@@ -57,7 +57,7 @@ function Home() {
             -</p>
         </div>
         <div className="center-image">
-          <img className="image" src="https://i.ibb.co/16r4BBb/IMG-20181017-WA0116.jpg" alt=""/>
+          <img className="image" src="https://i.ibb.co/94c8SFk/mahan3.jpg" alt=""/>
         </div>
       </div>
       <div className="row">
