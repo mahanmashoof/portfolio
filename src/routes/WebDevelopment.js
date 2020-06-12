@@ -8,6 +8,12 @@ function WebDevelopment() {
     <div className="container">
       <h1 className="heading">Web Development projects<span role="img" aria-label="web">🕸️</span></h1>
       <div className="icons">
+        <img className="icon" alt="js" src="https://www.ioanavladau.com/imgs/circle-js-v2.png"/>
+      </div>
+      <div className="row route-row">
+        <WebPicLink url={WebPicLinkData[3].url} imgSrc={WebPicLinkData[3].imgSrc}/>
+      </div>
+      <div className="icons">
         <img className="icon" alt="rails" src="https://cdn3.iconfinder.com/data/icons/popular-services-brands-vol-2/512/ruby-on-rails-512.png"/>
         {/* <img className="icon" alt="html" src="https://icons-for-free.com/iconfiles/png/512/coding+html+programming+web+icon-1320184881567336963.png"/>
         <img className="icon" alt="css" src="https://cdn2.iconfinder.com/data/icons/social-icon-3/512/social_style_3_css3-512.png"/>
