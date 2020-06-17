@@ -17,7 +17,7 @@ const WebPicLinkData = [
   {
     id:4,
     url: "https://mahanmashoof.github.io/Booklist-app/",
-    imgSrc : "https://i.ibb.co/CMBRYgB/favorite-books.png"
+    imgSrc : "https://i.ibb.co/7N4bbsC/favorite-books.png"
   }
 ];
 
