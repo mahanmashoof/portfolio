@@ -14,10 +14,13 @@ function WebDevelopment() {
         <WebPicLink url={WebPicLinkData[3].url} imgSrc={WebPicLinkData[3].imgSrc}/>
       </div>
       <div className="icons">
+        <img className="icon" alt="react" src="https://cdn.iconscout.com/icon/free/png-512/react-1-282599.png"/>
+      </div>
+      <div className="row route-row">
+        <WebPicLink url={WebPicLinkData[4].url} imgSrc={WebPicLinkData[4].imgSrc}/>
+      </div>
+      <div className="icons">
         <img className="icon" alt="rails" src="https://cdn3.iconfinder.com/data/icons/popular-services-brands-vol-2/512/ruby-on-rails-512.png"/>
-        {/* <img className="icon" alt="html" src="https://icons-for-free.com/iconfiles/png/512/coding+html+programming+web+icon-1320184881567336963.png"/>
-        <img className="icon" alt="css" src="https://cdn2.iconfinder.com/data/icons/social-icon-3/512/social_style_3_css3-512.png"/>
-        <img className="icon" alt="javascript" src="https://s3.us-east-2.amazonaws.com/upload-icon/uploads/icons/png/13691885491579517854-256.png"/> */}
       </div>
       <div className="row route-row">
         <WebPicLink url={WebPicLinkData[0].url} imgSrc={WebPicLinkData[0].imgSrc}/>
