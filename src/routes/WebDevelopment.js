@@ -11,6 +11,7 @@ function WebDevelopment() {
         <img className="icon" alt="js" src="https://www.ioanavladau.com/imgs/circle-js-v2.png"/>
       </div>
       <div className="row route-row">
+        <WebPicLink url={WebPicLinkData[5].url} imgSrc={WebPicLinkData[5].imgSrc}/>
         <WebPicLink url={WebPicLinkData[3].url} imgSrc={WebPicLinkData[3].imgSrc}/>
       </div>
       <div className="icons">
@@ -23,13 +24,14 @@ function WebDevelopment() {
         <img className="icon" alt="rails" src="https://cdn3.iconfinder.com/data/icons/popular-services-brands-vol-2/512/ruby-on-rails-512.png"/>
       </div>
       <div className="row route-row">
-        <WebPicLink url={WebPicLinkData[0].url} imgSrc={WebPicLinkData[0].imgSrc}/>
         <WebPicLink url={WebPicLinkData[1].url} imgSrc={WebPicLinkData[1].imgSrc}/>
+        <WebPicLink url={WebPicLinkData[0].url} imgSrc={WebPicLinkData[0].imgSrc}/>
       </div>
       <div className="icons">
         <img className="icon" alt="wp" src="https://cdn3.iconfinder.com/data/icons/social-media-2034/500/wordpress-512.png"/>
       </div>
       <div className="row route-row">
+        <WebPicLink url={WebPicLinkData[6].url} imgSrc={WebPicLinkData[6].imgSrc}/>
         <WebPicLink url={WebPicLinkData[2].url} imgSrc={WebPicLinkData[2].imgSrc}/>
       </div>
     </div>

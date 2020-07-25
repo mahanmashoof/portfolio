@@ -23,6 +23,16 @@ const WebPicLinkData = [
     id:5,
     url: "https://mahan.netlify.app/",
     imgSrc : "https://i.ibb.co/NsDmS5G/portfolio.png"
+  },
+  {
+    id:6,
+    url: "https://mapnweather.netlify.app/",
+    imgSrc : "https://i.ibb.co/vvNfD1K/mapnweather.png"
+  },
+  {
+    id:7,
+    url: "https://mahdris.com/",
+    imgSrc : "https://i.ibb.co/JC4ZnsC/mahdris.png"
   }
 ];
 
