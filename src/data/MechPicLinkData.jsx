@@ -1,22 +1,22 @@
 const WebPicLinkData = [
   {
     id:1,
-    imgSrc : "https://i.ibb.co/q1MnWhS/ge-front.png",
+    imgSrc : "https://i.ibb.co/mhYDycx/ge-front.jpg",
     dest: "/mecheng/ge"
   },
   {
     id:2,
-    imgSrc : "https://i.ibb.co/N9HcNwZ/SSC-front.png",
+    imgSrc : "https://i.ibb.co/1bwZGNC/SSC-front.jpg",
     dest: "/mecheng/ssc"
   },
   {
     id:3,
-    imgSrc : "https://i.ibb.co/M5MyncV/orgentec-front.png",
+    imgSrc : "https://i.ibb.co/nrc7cYd/orgentec-front.jpg",
     dest: "/mecheng/orgentec"
   },
   {
     id:4,
-    imgSrc : "https://i.ibb.co/v3zWh4T/safegate-front.png",
+    imgSrc : "https://i.ibb.co/yh2hRPb/safegate-front.jpg",
     dest: "/mecheng/safegate"
   },
   {
@@ -26,7 +26,7 @@ const WebPicLinkData = [
   },
   {
     id:6,
-    imgSrc : "https://i.ibb.co/N6rkHHP/tctech-front.png",
+    imgSrc : "https://i.ibb.co/4FW5bLq/tctech-front.jpg",
     dest: "/mecheng/tctech"
   },
   {

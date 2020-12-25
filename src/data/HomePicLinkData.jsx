@@ -2,19 +2,19 @@ const HomePicLinkData = [
   {
     id:1,
     dest: "/webdev",
-    pic: "https://i.ibb.co/V0yxvNb/VVV.jpg",
+    pic: "https://i.ibb.co/44z0tTR/VVV.jpg",
     img : "Web Development"
   },
   {
     id:2,
     dest:"/mecheng",
-    pic:"https://i.ibb.co/qDdfnnn/cad4.png",
+    pic:"https://i.ibb.co/P1F46dh/cad4.jpg",
     img:"3D Design & Product Development"
   },
   {
     id:3,
     dest:"/mecheng",
-    pic:"https://i.ibb.co/b339qfY/drw2.png",
+    pic:"https://i.ibb.co/D4cNW0y/drw2.jpg",
     img:"2D Production Drawings"
   },
   {
@@ -32,7 +32,7 @@ const HomePicLinkData = [
   {
     id:6,
     dest:"/projects",
-    pic:"https://i.ibb.co/bvYcNqk/proj1.jpg",
+    pic:"https://i.ibb.co/rHd2c2Y/bg.jpg",
     img:"Carpentry & other Projects"
   }
 ];

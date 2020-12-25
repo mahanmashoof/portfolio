@@ -76,13 +76,13 @@ function MechGE() {
       <h3>Installations at site</h3>
       <div className="row">
         <div className="col-12 col-md-4">
-          <img className="mecheng__img" alt="" src="https://i.ibb.co/mhttsJR/IMG-1660.jpg"></img>
+          <img className="mecheng__img" alt="" src="https://i.ibb.co/0t2qN63/IMG-1660s.jpg"></img>
         </div>
         <div className="col-12 col-md-4">
-          <img className="mecheng__img" alt="" src="https://i.ibb.co/Tvf9Y8g/gentrace1.png"></img>
+          <img className="mecheng__img" alt="" src="https://i.ibb.co/6P92Y8L/gentrace1.jpg"></img>
         </div>
         <div className="col-12 col-md-4">
-          <img className="mecheng__img" alt="" src="https://i.ibb.co/Ms3b4GF/gentrace4.jpg"></img>
+          <img className="mecheng__img" alt="" src="https://i.ibb.co/X7bKLLx/gentrace4.jpg"></img>
         </div>
       </div>
     </div>

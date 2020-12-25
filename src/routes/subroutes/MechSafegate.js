@@ -54,7 +54,7 @@ function MechSafegate() {
       </div>
     </div>
     <div className="icons">
-      <a target="_blank" rel="noopener noreferrer" href="https://adbsafegate.com/"><img className="icon" alt="safegate-icon" src="https://www.copybook.com/img/pas19438s43033/adb-safegate-new-logo.jpg?v=1509463589"/></a>
+      <a target="_blank" rel="noopener noreferrer" href="https://adbsafegate.com/"><img className="icon" alt="safegate-icon" src="https://blog.adbsafegate.com/wp-content/uploads/logo640x400-2.jpg"/></a>
       <a target="_blank" rel="noopener noreferrer" href="https://www.helsinki.fi/en"><img className="icon" alt="UoH-icon" src="https://pbs.twimg.com/profile_images/1070598846814830592/MmWyejc5_400x400.jpg"/></a>
       <a target="_blank" rel="noopener noreferrer" href="https://www.prevas.se/"><img className="icon" alt="prevas-icon" src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcT-D_xL6yUfXXXdXEH2w8cgu4-NNGlLx15WMtJsVI8iwva267fU&usqp=CAU"/></a>
     </div>

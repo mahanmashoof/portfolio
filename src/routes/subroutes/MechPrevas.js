@@ -60,7 +60,7 @@ function MechPrevs() {
       </div>
       <div className="explaining">
         <div className="center-image every-other-img">
-          <img alt="" src="https://i.ibb.co/zZkRKqw/cale.png"></img>
+          <img alt="" src="https://i.ibb.co/mbZntXK/cale.jpg"></img>
         </div>
         <div className="center-text description every-other-text">
           <p className="space"></p>

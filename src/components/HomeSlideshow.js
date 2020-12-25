@@ -7,19 +7,19 @@ function HomeSlideshow() {
   return (
     <Carousel fade="true" interval="3000">
       <Carousel.Item>
-        <img className="d-block w-100 slideshow-container" src="https://i.ibb.co/Fqx3zDh/web-dev.png" alt="First slide"/>
+        <img className="d-block w-100 slideshow-container" src="https://i.ibb.co/CJgqbKx/web-dev.jpg" alt="First slide"/>
       </Carousel.Item>
 
       <Carousel.Item>
-        <img className="d-block w-100 slideshow-container" src="https://i.ibb.co/CHcZLXm/web-sw-white-bg.png" alt="Second slide"/>
+        <img className="d-block w-100 slideshow-container" src="https://i.ibb.co/1QpBBbs/web-sw-white-bg.jpg" alt="Second slide"/>
       </Carousel.Item>
 
       <Carousel.Item>
-        <img className="d-block w-100 slideshow-container" src="https://i.ibb.co/bFvBvv5/3d-proto.png" alt="Third slide"/>
+        <img className="d-block w-100 slideshow-container" src="https://i.ibb.co/r5VnsM8/3d-proto.jpg" alt="Third slide"/>
       </Carousel.Item>
 
       <Carousel.Item>
-        <img className="d-block w-100 slideshow-container" src="https://i.ibb.co/KqMhhcJ/cad-sw-white-bg.png" alt="Third slide"/>
+        <img className="d-block w-100 slideshow-container" src="https://i.ibb.co/kX1bcwd/cad-sw-white-bg.jpg" alt="Third slide"/>
       </Carousel.Item>
     </Carousel>);
 }

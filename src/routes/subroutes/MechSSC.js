@@ -6,7 +6,7 @@ function MechSSC() {
   return (<div className="full-page">
     <div className="container">
       <h1 className="heading">XRMON-GF</h1>
-      <img className="subroute-img" alt="" src="https://i.ibb.co/Hzgf9bx/xrmon.png"></img>
+      <img className="subroute-img" alt="" src="https://i.ibb.co/4829MT6/xrmon.jpg"></img>
       <p>An experiment module, and part of the
         <a className="text-link" target="_blank" rel="noopener noreferrer" href="https://www.esa.int/ESA_Multimedia/Images/2019/06/Maser_12_launch"> MASER-12 </a>
         Rocket for microstructural formation experiments in metal alloys under micro-gravity, using a small furnace and an x-ray camera. Ordered through European Space Agency by researchers from Aix-Marseille Université, operated by Swedish Space Corporation</p>
@@ -105,13 +105,13 @@ function MechSSC() {
       <h3>Racks and installation in Novespace Airbus</h3>
       <div className="row">
         <div className="col-12 col-md-4">
-          <img className="mecheng__img" alt="" src="https://i.ibb.co/LZbnhGK/DSC-0201-Edit.jpg"></img>
+          <img className="mecheng__img" alt="" src="https://i.ibb.co/HVPjVK2/DSC-0201-Edit-small.jpg"></img>
         </div>
         <div className="col-12 col-md-4">
-          <img className="mecheng__img" alt="" src="https://i.ibb.co/7tXqG3n/L1000933.jpg"></img>
+          <img className="mecheng__img" alt="" src="https://i.ibb.co/j5wtVQN/L1000933-small.jpg"></img>
         </div>
         <div className="col-12 col-md-4">
-          <img className="mecheng__img" alt="" src="https://i.ibb.co/XxFCxDq/DSC-0213-Edit-2.jpg"></img>
+          <img className="mecheng__img" alt="" src="https://i.ibb.co/v3RLFG7/DSC-0213-Edit-2-small.jpg"></img>
         </div>
       </div>
     </div>
