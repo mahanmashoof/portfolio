@@ -110,7 +110,7 @@ function MechPrevs() {
     </div>
     <div className="icons">
       <a target="_blank" rel="noopener noreferrer" href="https://www.prevas.se/"><img className="icon" alt="prevas-icon" src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcT-D_xL6yUfXXXdXEH2w8cgu4-NNGlLx15WMtJsVI8iwva267fU&usqp=CAU"/></a>
-      <a target="_blank" rel="noopener noreferrer" href="https://www.getinge.com/me/"><img className="icon" alt="maquet-icon" src="https://seeklogo.com/images/M/maquet-logo-FF9E8889AB-seeklogo.com.gif"/></a>
+      <a target="_blank" rel="noopener noreferrer" href="https://www.getinge.com/me/"><img className="icon" alt="maquet-icon" src="https://upload.wikimedia.org/wikipedia/commons/d/d7/MAQUET-logo.JPG"/></a>
       <a target="_blank" rel="noopener noreferrer" href="https://medicalvision.se/"><img className="icon" alt="medvis-icon" src="https://res-5.cloudinary.com/crunchbase-production/image/upload/c_lpad,h_120,w_120,f_auto,b_white,q_auto:eco/nlwesearbp6xqjtex7vs"/></a>
       <a target="_blank" rel="noopener noreferrer" href="https://www.pricer.com/"><img className="icon" alt="pricer-icon" src="https://res-5.cloudinary.com/crunchbase-production/image/upload/c_lpad,h_256,w_256,f_auto,q_auto:eco/v1490182354/m25nfl9vbwwdt8oziejf.png"/></a>
     </div>
