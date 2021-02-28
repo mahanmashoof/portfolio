@@ -1,7 +1,6 @@
 import React, {Component} from 'react';
 import './App.css';
 import Nav from './components/Nav.js';
-import WebDevelopment from './routes/WebDevelopment.js';
 import MechanicalEngineering from './routes/MechanicalEngineering.js';
 import GEHealthcare from './routes/subroutes/MechGE.js';
 import SwedishSpace from './routes/subroutes/MechSSC.js';

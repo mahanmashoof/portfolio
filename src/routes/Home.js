@@ -5,8 +5,7 @@ import Resume from "./../components/Resume.js";
 import WebPicLinkData from "./../data/WebPicLinkData.jsx";
 import WebPicLinks from "./../components/webdev/WebPicLink.js";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faJsSquare, faReact, faHtml5, faCss3, faWordpress, faAws, faGitAlt } from "@fortawesome/free-brands-svg-icons";
-import { faGem } from "@fortawesome/free-solid-svg-icons";
+import { faJsSquare, faReact, faWordpress, faGitAlt } from "@fortawesome/free-brands-svg-icons";
 
 function Home() {
   const dayNum = new Date().getDay();
