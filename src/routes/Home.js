@@ -50,14 +50,14 @@ function Home() {
         <div className="center-text">
           <h3 className="home-heading">{timePhrase}
             welcome to my page!</h3>
-          <p>My name is Mahan, a Mechanical engineer and Web developer.</p>
+          <p>My name is Mahan, and I'm a Web developer with a background in Mechanical engineering.</p>
           <p>Feel free to navigate this page to see my work and hopefully know me better.</p>
           <p>If there's any thing I can help you with, don't hesitate to <a href="#resume" className="exception-link">contact me</a> with your questions!</p>
           <p className="bye-phrase">- {byePhrase}
             -</p>
         </div>
         <div className="center-image">
-          <img className="image" src="https://i.ibb.co/94c8SFk/mahan3.jpg" alt=""/>
+          <img className="image" src="mahan4.jpg" alt=""/>
         </div>
       </div>
       <div className="row">

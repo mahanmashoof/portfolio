@@ -84,8 +84,6 @@ p {
   width: 200px;
   border-radius: 50%;
   margin-right: 10%;
-  transform: scaleX(-1);
-  filter: grayscale(30%);
 }
 
 .nav-home, .nav-link {
@@ -105,8 +103,20 @@ p {
   margin-bottom: 1rem;
 }
 
+.cv-button-parent {
+  display: flex;
+  justify-content: center;
+}
+
+#cv-button {
+  width: 35%;
+}
+
 @media (max-width: 768px) {
   .nav-links {
     display: none;
+  }
+  #cv-button {
+    width: 80%;
   }
 }
