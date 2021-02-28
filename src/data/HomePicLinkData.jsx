@@ -1,9 +1,9 @@
 const HomePicLinkData = [
   {
     id:1,
-    dest: "/webdev",
-    pic: "https://i.ibb.co/44z0tTR/VVV.jpg",
-    img : "Web Development"
+    dest: "http://app.aprovafacil.net/users/sign_in",
+    pic: "icons/afIcon.png",
+    img : "Aprova fácil"
   },
   {
     id:2,

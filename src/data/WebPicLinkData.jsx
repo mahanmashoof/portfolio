@@ -2,22 +2,30 @@ const WebPicLinkData = [
   {
     id:1,
     url: "http://venuevidivici.herokuapp.com/",
-    imgSrc : "https://i.ibb.co/44z0tTR/VVV.jpg"
+    imgSrc : "icons/vvvIcon.png",
+    descr: 'Find the best locations to host a party!',
+    tech: '-Ruby on Rails (Boot camp project)'
   },
   {
     id:2,
     url: "http://www.usicz.com/",
-    imgSrc : "https://i.ibb.co/Wg0Rb6F/usicz.jpg"
+    imgSrc : "icons/usiczIcon.png",
+    descr: 'Create your playlist from your favorite tracks!',
+    tech: '-Ruby on Rails (Boot camp project)'
   },
   {
     id:3,
-    url: "https://dantes.com.br/selvagem/",
-    imgSrc : "https://i.ibb.co/7vHnNty/selvagem.png"
+    url: "http://selvagemciclo.com.br/",
+    imgSrc : "icons/selvIcon.png",
+    descr: 'Cycle of life studies and webshop',
+    tech: '-Wordpress'
   },
   {
     id:4,
     url: "https://mahanmashoof.github.io/Booklist-app/",
-    imgSrc : "https://i.ibb.co/yY4Q8L7/favorite-books.png"
+    imgSrc : "icons/favBooksIcon.png",
+    descr: 'Store yor favorite books locally in your device with this SPA',
+    tech: '-JS'
   },
   {
     id:5,
@@ -27,12 +35,16 @@ const WebPicLinkData = [
   {
     id:6,
     url: "https://mapnweather.netlify.app/",
-    imgSrc : "https://i.ibb.co/V2LXK9w/mapnweather.png"
+    imgSrc : "icons/mapwIcon.jpg",
+    descr: 'Map & weather forecast for your location with this SPA',
+    tech: '-JS'
   },
   {
     id:7,
-    url: "https://mahdris.com/",
-    imgSrc : "https://i.ibb.co/bzVJdc4/mahdris.jpg"
+    url: "http://app.aprovafacil.net/users/sign_in",
+    imgSrc : "icons/afIcon.png",
+    descr: 'Real estate- and Bank loan services web app',
+    tech: '-Ruby on Rails, jQuery, PostgreSQL, AWS S3'
   }
 ];
 

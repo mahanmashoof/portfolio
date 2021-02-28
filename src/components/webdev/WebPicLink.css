@@ -1,11 +1,45 @@
 .webdev-img {
   transition: 0.8s;
-  max-width: 100%;
-  margin: 0.5rem 0;
-  border-radius: 0.5rem;
+  border-radius: 0.5rem 0 0 0.5rem;
+  width: 100%;
 }
 
 .webdev-img:hover {
   transform: scale(1.05);
   box-shadow: 0 0 10px 5px #FC9F1C;
+}
+
+.web-icon-descr {
+  display: flex;
+  align-items: center;
+  width: 75%;
+  padding: 2%;
+  justify-content: center;
+}
+
+.web-proj-link {
+  display: flex;
+  justify-content: space-between;
+  border: 2px solid #FC9F1C;
+  border-radius: 0.5rem;
+  margin: 0.5rem 0
+}
+
+.web-proj-link-pic {
+  width: 25%;
+  margin: 2px;
+}
+
+.web-icon-descr-text {
+  margin: 0.5rem 0;
+}
+
+@media (max-width: 768px) {
+  .web-proj-link-pic {
+    width: 40%;
+  }
+  .web-icon-descr {
+    width: 60%;
+    padding: 2% 1%;
+  }
 }
