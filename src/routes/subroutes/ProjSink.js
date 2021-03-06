@@ -1,6 +1,5 @@
 import React from 'react';
 import './ProjSink.css';
-// import ProjPicLinkData from './../../data/ProjPicLinkData.jsx';
 
 function ProjSink() {
   return (<div className="full-page">

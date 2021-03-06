@@ -2,10 +2,15 @@ import React from "react";
 import "./../App.css";
 import HomeSlideshow from "./../components/HomeSlideshow.js";
 import Resume from "./../components/Resume.js";
-import WebPicLinkData from "./../data/WebPicLinkData.jsx";
+import { WebPicLinkData } from "./../data/local_api";
 import WebPicLinks from "./../components/webdev/WebPicLink.js";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faJsSquare, faReact, faWordpress, faGitAlt } from "@fortawesome/free-brands-svg-icons";
+import {
+  faJsSquare,
+  faReact,
+  faWordpress,
+  faGitAlt,
+} from "@fortawesome/free-brands-svg-icons";
 
 function Home() {
   const dayNum = new Date().getDay();
@@ -41,6 +46,18 @@ function Home() {
     byePhrase = "it's " + day + " already btw 😬";
   }
 
+  function portfMap(props) {
+    return (
+      <WebPicLinks
+        key={props.id}
+        url={props.url}
+        imgSrc={props.imgSrc}
+        descr={props.descr}
+        tech={props.tech}
+      />
+    );
+  }
+
   return (
     <div className="full-page-home">
       <div className="container">
@@ -73,54 +90,56 @@ function Home() {
         </div>
 
         <div className="stack-div">
-          <FontAwesomeIcon style={{ color: 'black' }} icon={faJsSquare} size="2x" />
-          <img alt='' src='https://cdn.jsdelivr.net/npm/simple-icons@3.13.0/icons/rubyonrails.svg' style={{height: '2rem'}}/>
-          <img alt='' src='https://cdn.jsdelivr.net/npm/simple-icons@3.13.0/icons/jquery.svg' style={{height: '2rem'}}/>
-          <FontAwesomeIcon style={{ color: 'black' }} icon={faReact} size="2x" />
-          <FontAwesomeIcon style={{ color: 'black' }} icon={faWordpress} size="2x" />
-          <img alt='' src='https://cdn.jsdelivr.net/npm/simple-icons@3.13.0/icons/next-dot-js.svg' style={{height: '2rem'}}/>
-          <img alt='' src='https://cdn.jsdelivr.net/npm/simple-icons@3.13.0/icons/postgresql.svg' style={{height: '2rem'}}/>
-          <FontAwesomeIcon style={{ color: 'black' }} icon={faGitAlt} size="2x" />
-        </div>
-        <div className="row">
-          <WebPicLinks
-            url={WebPicLinkData[6].url}
-            imgSrc={WebPicLinkData[6].imgSrc}
-            descr={WebPicLinkData[6].descr}
-            tech={WebPicLinkData[6].tech}
+          <FontAwesomeIcon
+            style={{ color: "black" }}
+            icon={faJsSquare}
+            size="2x"
           />
-          <WebPicLinks
-            url={WebPicLinkData[5].url}
-            imgSrc={WebPicLinkData[5].imgSrc}
-            descr={WebPicLinkData[5].descr}
-            tech={WebPicLinkData[5].tech}
+          <img
+            alt=""
+            src="https://cdn.jsdelivr.net/npm/simple-icons@3.13.0/icons/rubyonrails.svg"
+            style={{ height: "2rem" }}
           />
-          <WebPicLinks
-            url={WebPicLinkData[3].url}
-            imgSrc={WebPicLinkData[3].imgSrc}
-            descr={WebPicLinkData[3].descr}
-            tech={WebPicLinkData[3].tech}
+          <img
+            alt=""
+            src="https://cdn.jsdelivr.net/npm/simple-icons@3.13.0/icons/jquery.svg"
+            style={{ height: "2rem" }}
           />
-          <WebPicLinks
-            url={WebPicLinkData[2].url}
-            imgSrc={WebPicLinkData[2].imgSrc}
-            descr={WebPicLinkData[2].descr}
-            tech={WebPicLinkData[2].tech}
+          <FontAwesomeIcon
+            style={{ color: "black" }}
+            icon={faReact}
+            size="2x"
           />
-          <WebPicLinks
-            url={WebPicLinkData[1].url}
-            imgSrc={WebPicLinkData[1].imgSrc}
-            descr={WebPicLinkData[1].descr}
-            tech={WebPicLinkData[1].tech}
+          <FontAwesomeIcon
+            style={{ color: "black" }}
+            icon={faWordpress}
+            size="2x"
           />
-          <WebPicLinks
-            url={WebPicLinkData[0].url}
-            imgSrc={WebPicLinkData[0].imgSrc}
-            descr={WebPicLinkData[0].descr}
-            tech={WebPicLinkData[0].tech}
+          <img
+            alt=""
+            src="https://cdn.jsdelivr.net/npm/simple-icons@3.13.0/icons/next-dot-js.svg"
+            style={{ height: "2rem" }}
+          />
+          <img
+            alt=""
+            src="https://cdn.jsdelivr.net/npm/simple-icons@3.13.0/icons/postgresql.svg"
+            style={{ height: "2rem" }}
+          />
+          <FontAwesomeIcon
+            style={{ color: "black" }}
+            icon={faGitAlt}
+            size="2x"
           />
         </div>
-        <div className="stack-div" style={{ marginTop: '0.5rem', borderRadius: '0 0 1rem 1rem', height: '2rem' }}></div>
+        <div className="row">{WebPicLinkData.reverse().map(portfMap)}</div>
+        <div
+          className="stack-div"
+          style={{
+            marginTop: "0.5rem",
+            borderRadius: "0 0 1rem 1rem",
+            height: "2rem",
+          }}
+        ></div>
         <HomeSlideshow />
         <Resume />
       </div>

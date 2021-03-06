@@ -1,6 +1,5 @@
 import React from 'react';
 import './ProjLaundry.css';
-// import ProjPicLinkData from './../../data/ProjPicLinkData.jsx';
 
 function ProjLaundry() {
   return (<div className="full-page">

@@ -1,21 +1,21 @@
 import React from 'react';
 import './../App.css';
 import ProjectsCard from './../components/projects/ProjectsCard.js';
-import ProjPicLinkData from './../data/ProjPicLinkData.jsx';
+import {ProjPicLinkData} from './../data/local_api';
 
 function Projects() {
+  function mapProj(props) {
+    return(
+    <ProjectsCard key={props.id} dest={props.dest} imgSrc={props.imgSrc}/>
+    )
+  }
   return (<div className="full-page">
     <div className="container">
       <h1 className="heading">Personal Hobby Projects
         <span role="img" aria-label="hammer">🔨</span>
       </h1>
       <div className="row route-row">
-        <ProjectsCard dest={ProjPicLinkData[5].dest} imgSrc={ProjPicLinkData[5].imgSrc}/>
-        <ProjectsCard dest={ProjPicLinkData[2].dest} imgSrc={ProjPicLinkData[2].imgSrc}/>
-        <ProjectsCard dest={ProjPicLinkData[3].dest} imgSrc={ProjPicLinkData[3].imgSrc}/>
-        <ProjectsCard dest={ProjPicLinkData[4].dest} imgSrc={ProjPicLinkData[4].imgSrc}/>
-        <ProjectsCard dest={ProjPicLinkData[0].dest} imgSrc={ProjPicLinkData[0].imgSrc}/>
-        <ProjectsCard dest={ProjPicLinkData[1].dest} imgSrc={ProjPicLinkData[1].imgSrc}/>
+        {ProjPicLinkData.map(mapProj)}
       </div>
     </div>
   </div>);

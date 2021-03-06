@@ -1,6 +1,5 @@
 import React from 'react';
 import './Mech.css';
-// import MechPicLinkData from './../../data/MechPicLinkData.jsx';
 
 function MechTCTech() {
   return (<div className="full-page">

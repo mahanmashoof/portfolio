@@ -15,32 +15,27 @@ const WebPicLinkData = [
   },
   {
     id:3,
-    url: "http://selvagemciclo.com.br/",
-    imgSrc : "icons/selvIcon.png",
-    descr: 'Cycle of life studies and webshop',
-    tech: '-Wordpress'
-  },
-  {
-    id:4,
     url: "https://mahanmashoof.github.io/Booklist-app/",
     imgSrc : "icons/favBooksIcon.png",
     descr: 'Store yor favorite books locally in your device with this SPA',
     tech: '-JS'
   },
   {
-    id:5,
-    url: "https://mahan.netlify.app/",
-    imgSrc : "https://i.ibb.co/XJHQ3td/portfolio.png"
+    id:4,
+    url: "http://selvagemciclo.com.br/",
+    imgSrc : "icons/selvIcon.png",
+    descr: 'Cycle of life studies and webshop',
+    tech: '-Wordpress'
   },
   {
-    id:6,
+    id:5,
     url: "https://mapnweather.netlify.app/",
     imgSrc : "icons/mapwIcon.jpg",
     descr: 'Map & weather forecast for your location with this SPA',
     tech: '-JS'
   },
   {
-    id:7,
+    id:6,
     url: "http://app.aprovafacil.net/users/sign_in",
     imgSrc : "icons/afIcon.png",
     descr: 'Real estate- and Bank loan services web app',

@@ -1,6 +1,5 @@
 import React from 'react';
 import './ProjRecSta.css';
-// import ProjPicLinkData from './../../data/ProjPicLinkData.jsx';
 
 function ProjRecSta() {
   return (<div className="full-page">

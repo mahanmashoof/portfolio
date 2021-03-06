@@ -1,6 +1,5 @@
 import React from 'react';
 import './ProjBg.css';
-// import ProjPicLinkData from './../../data/ProjPicLinkData.jsx';
 
 function ProjBg() {
   return (<div className="full-page">

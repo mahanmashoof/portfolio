@@ -1,6 +1,5 @@
 import React from 'react';
 import './ProjCrib.css';
-// import ProjPicLinkData from './../../data/ProjPicLinkData.jsx';
 
 function ProjCrib() {
   return (<div className="full-page">
