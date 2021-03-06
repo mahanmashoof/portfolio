@@ -131,7 +131,7 @@ function Home() {
             size="2x"
           />
         </div>
-        <div className="row">{WebPicLinkData.reverse().map(portfMap)}</div>
+        <div className="row">{WebPicLinkData.slice(0).reverse().map(portfMap)}</div>
         <div
           className="stack-div"
           style={{

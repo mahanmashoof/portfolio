@@ -6,16 +6,12 @@ function NavLinks() {
   return(
     <div>
       <ul className="nav-links">
-        <Link to="/webdev">
-          <li className="nav-link">Web development</li>
-        </Link>
-        <li className="nav-link">|</li>
         <Link to="/mecheng">
-          <li className="nav-link">Mechanical Engineering</li>
+          <li className="nav-link">Mech Engineering</li>
         </Link>
         <li className="nav-link">|</li>
         <Link to="/projects">
-          <li className="nav-link">Projects</li>
+          <li className="nav-link">Hobby Projects</li>
         </Link>
       </ul>
     </div>

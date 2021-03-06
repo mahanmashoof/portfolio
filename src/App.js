@@ -45,7 +45,6 @@ class App extends Component {
         {slideDrawer}
         <Switch>
           <Route path="/" exact component={Home}/>
-          <Route path="/webdev" component={Home}/>
           <Route path="/mecheng" exact component={MechanicalEngineering}/>
           <Route path="/mecheng/ge" component={GEHealthcare}/>
           <Route path="/mecheng/ssc" component={SwedishSpace}/>

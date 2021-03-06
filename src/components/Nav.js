@@ -7,7 +7,7 @@ import NavButton from './NavButton.js';
 function Nav(props) {
   return (<nav>
     <Link to="/">
-      <p className="nav-home">Intro</p>
+      <p className="nav-home">{'{webDev}'}</p>
     </Link>
     <NavLinks />
     <NavButton click={props.drawerClickHandler} />

@@ -20,7 +20,7 @@ function MechanicalEngineering() {
           </span>
         </h1>
         <div className="row route-row">
-          {MechPicLinkData.reverse().map(subRoutes)}
+          {MechPicLinkData.slice(0).reverse().map(subRoutes)}
         </div>
       </div>
     </div>
