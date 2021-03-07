@@ -1,5 +1,5 @@
 import React from "react";
-import "./../App.css";
+import "./../App.scss";
 import MechEngCard from "./../components/mecheng/MechEngCard.js";
 import { MechPicLinkData } from "./../data/local_api";
 

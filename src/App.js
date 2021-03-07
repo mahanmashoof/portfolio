@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import './App.css';
+import './App.scss';
 import Nav from './components/Nav.js';
 import MechanicalEngineering from './routes/MechanicalEngineering.js';
 import GEHealthcare from './routes/subroutes/MechGE.js';

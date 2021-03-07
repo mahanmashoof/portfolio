@@ -1,5 +1,5 @@
 import React from 'react';
-import './../App.css';
+import './../App.scss';
 import ProjectsCard from './../components/projects/ProjectsCard.js';
 import {ProjPicLinkData} from './../data/local_api';
 
