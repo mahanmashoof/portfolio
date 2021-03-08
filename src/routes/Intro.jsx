@@ -10,7 +10,9 @@ function Intro() {
   let hours = new Date().getHours();
   let timePhrase;
 
-  if (hours > 18) {
+  if (hours > 21) {
+    timePhrase = "HAVING A GOOD NIGHT?";
+  } else if (hours > 18) {
     timePhrase = "GOOD EVENING";
   } else if (hours > 12) {
     timePhrase = "GOOD AFTERNOON";
@@ -19,13 +21,13 @@ function Intro() {
   } else if (hours > 4) {
     timePhrase = "GOOD MORNING";
   } else {
-    timePhrase = "ALMOST BEDTIME";
+    timePhrase = "CAN'T SLEEP?";
   }
 
   return (
     <div className="intro" id="intro">
       <h2>{timePhrase}</h2>
-      <img src='startpage.gif' alt='' className='startpage-img' />
+      <img src="startpage.gif" alt="" className="startpage-img" />
       <br />
       <Button
         style={{ marginTop: "3rem" }}
