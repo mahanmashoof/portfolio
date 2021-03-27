@@ -10,7 +10,7 @@ function Intro() {
   let hours = new Date().getHours();
   let timePhrase;
 
-  if (hours > 21) {
+  if (hours >= 20) {
     timePhrase = "HAVING A GOOD NIGHT?";
   } else if (hours > 18) {
     timePhrase = "GOOD EVENING";
