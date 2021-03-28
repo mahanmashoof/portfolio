@@ -3,7 +3,7 @@ import "./WebPicLink.css";
 
 function WebPicLinks(props) {
   return (
-    <div className="col-12 col-md-6">
+    <div className="col-12 col-md-12">
       <div className="web-proj-link">
         <a
           className="web-proj-link-pic"

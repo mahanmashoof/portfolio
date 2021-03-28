@@ -81,7 +81,7 @@ const ProjPicLinkData = [
       id:2,
       url: "http://www.usicz.com/",
       imgSrc : "icons/usiczIcon.png",
-      descr: 'Create your playlist from your favorite tracks!',
+      descr: 'A playlist from your favorite tracks!',
       tech: '-Ruby on Rails (Boot camp project)'
     },
     {

@@ -22,7 +22,7 @@
   justify-content: space-between;
   border: 2px solid #FC9F1C;
   border-radius: 0.5rem;
-  margin: 0.5rem 0
+  margin: 0.5rem 25%
 }
 
 .web-proj-link-pic {
@@ -41,5 +41,8 @@
   .web-icon-descr {
     width: 60%;
     padding: 2% 1%;
+  }
+  .web-proj-link {
+    margin: 0.5rem 0
   }
 }
