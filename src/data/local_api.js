@@ -111,6 +111,13 @@ const ProjPicLinkData = [
       imgSrc : "icons/afIcon.png",
       descr: 'Real estate- and Bank loan services web app',
       tech: '-Ruby on Rails, jQuery, PostgreSQL, AWS S3'
+    },
+    {
+      id:7,
+      url: "https://site-inova.herokuapp.com/",
+      imgSrc : "icons/siIcon.png",
+      descr: 'Inova company and real estate presentation SPA ',
+      tech: '-React.js, Next.js'
     }
   ];
 

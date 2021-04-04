@@ -112,24 +112,62 @@ function Home() {
               size="2x"
             />
           </div>
-          <Carousel fade={true} indicators={false} interval={2500} >
+          <Carousel fade={true} indicators={false} interval={2500}>
             <Carousel.Item>
-              <WebPicLinks url={WebPicLinkData[5].url} imgSrc={WebPicLinkData[5].imgSrc} descr={WebPicLinkData[5].descr} tech={WebPicLinkData[5].tech} />
+              <WebPicLinks
+                url={WebPicLinkData[6].url}
+                imgSrc={WebPicLinkData[6].imgSrc}
+                descr={WebPicLinkData[6].descr}
+                tech={WebPicLinkData[6].tech}
+              />
             </Carousel.Item>
             <Carousel.Item>
-              <WebPicLinks url={WebPicLinkData[4].url} imgSrc={WebPicLinkData[4].imgSrc} descr={WebPicLinkData[4].descr} tech={WebPicLinkData[4].tech} />
+              <WebPicLinks
+                url={WebPicLinkData[5].url}
+                imgSrc={WebPicLinkData[5].imgSrc}
+                descr={WebPicLinkData[5].descr}
+                tech={WebPicLinkData[5].tech}
+              />
             </Carousel.Item>
             <Carousel.Item>
-              <WebPicLinks url={WebPicLinkData[3].url} imgSrc={WebPicLinkData[3].imgSrc} descr={WebPicLinkData[3].descr} tech={WebPicLinkData[3].tech} />
+              <WebPicLinks
+                url={WebPicLinkData[4].url}
+                imgSrc={WebPicLinkData[4].imgSrc}
+                descr={WebPicLinkData[4].descr}
+                tech={WebPicLinkData[4].tech}
+              />
             </Carousel.Item>
             <Carousel.Item>
-              <WebPicLinks url={WebPicLinkData[2].url} imgSrc={WebPicLinkData[2].imgSrc} descr={WebPicLinkData[2].descr} tech={WebPicLinkData[2].tech} />
+              <WebPicLinks
+                url={WebPicLinkData[3].url}
+                imgSrc={WebPicLinkData[3].imgSrc}
+                descr={WebPicLinkData[3].descr}
+                tech={WebPicLinkData[3].tech}
+              />
             </Carousel.Item>
             <Carousel.Item>
-              <WebPicLinks url={WebPicLinkData[1].url} imgSrc={WebPicLinkData[1].imgSrc} descr={WebPicLinkData[1].descr} tech={WebPicLinkData[1].tech} />
+              <WebPicLinks
+                url={WebPicLinkData[2].url}
+                imgSrc={WebPicLinkData[2].imgSrc}
+                descr={WebPicLinkData[2].descr}
+                tech={WebPicLinkData[2].tech}
+              />
             </Carousel.Item>
             <Carousel.Item>
-              <WebPicLinks url={WebPicLinkData[0].url} imgSrc={WebPicLinkData[0].imgSrc} descr={WebPicLinkData[0].descr} tech={WebPicLinkData[0].tech} />
+              <WebPicLinks
+                url={WebPicLinkData[1].url}
+                imgSrc={WebPicLinkData[1].imgSrc}
+                descr={WebPicLinkData[1].descr}
+                tech={WebPicLinkData[1].tech}
+              />
+            </Carousel.Item>
+            <Carousel.Item>
+              <WebPicLinks
+                url={WebPicLinkData[0].url}
+                imgSrc={WebPicLinkData[0].imgSrc}
+                descr={WebPicLinkData[0].descr}
+                tech={WebPicLinkData[0].tech}
+              />
             </Carousel.Item>
           </Carousel>
           <div
