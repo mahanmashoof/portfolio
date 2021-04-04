@@ -16,7 +16,7 @@ function WebPicLinks(props) {
         <div className="web-icon-descr">
           <div>
             <p className="web-icon-descr-text">{props.descr}</p>
-            <p className="web-icon-descr-text" style={{ fontStyle: "italic" }}>{props.tech}</p>
+            <p className="web-icon-descr-text" style={{ color: "#0CC79A" }}>{props.tech}</p>
           </div>
         </div>
       </div>

@@ -1,17 +1,10 @@
 import React from "react";
 import "./../App.scss";
-import HomeSlideshow from "./../components/HomeSlideshow.js";
 import Resume from "./../components/Resume.js";
 import { WebPicLinkData } from "./../data/local_api";
 import WebPicLinks from "./../components/webdev/WebPicLink.js";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {
-  faJsSquare,
-  faReact,
-  faWordpress,
-  faGitAlt,
-} from "@fortawesome/free-brands-svg-icons";
 import Carousel from "react-bootstrap/Carousel";
+import TechCarousel from "../../src/components/techCarousel";
 
 function Home() {
   const dayNum = new Date().getDay();
@@ -70,47 +63,11 @@ function Home() {
             </div>
           </div>
 
+          <h3 style={{ margin: '1rem 0' }}>Tech-stack & Projects</h3>
           <div className="stack-div">
-            <FontAwesomeIcon
-              style={{ color: "black" }}
-              icon={faJsSquare}
-              size="2x"
-            />
-            <img
-              alt=""
-              src="https://cdn.jsdelivr.net/npm/simple-icons@3.13.0/icons/rubyonrails.svg"
-              style={{ height: "2rem" }}
-            />
-            <img
-              alt=""
-              src="https://cdn.jsdelivr.net/npm/simple-icons@3.13.0/icons/jquery.svg"
-              style={{ height: "2rem" }}
-            />
-            <FontAwesomeIcon
-              style={{ color: "black" }}
-              icon={faReact}
-              size="2x"
-            />
-            <FontAwesomeIcon
-              style={{ color: "black" }}
-              icon={faWordpress}
-              size="2x"
-            />
-            <img
-              alt=""
-              src="https://cdn.jsdelivr.net/npm/simple-icons@3.13.0/icons/next-dot-js.svg"
-              style={{ height: "2rem" }}
-            />
-            <img
-              alt=""
-              src="https://cdn.jsdelivr.net/npm/simple-icons@3.13.0/icons/postgresql.svg"
-              style={{ height: "2rem" }}
-            />
-            <FontAwesomeIcon
-              style={{ color: "black" }}
-              icon={faGitAlt}
-              size="2x"
-            />
+            <div className="container">
+              <TechCarousel />
+            </div>
           </div>
           <Carousel fade={true} indicators={false} interval={2500}>
             <Carousel.Item>
@@ -173,12 +130,11 @@ function Home() {
           <div
             className="stack-div"
             style={{
-              marginTop: "0.5rem",
+              margin: "0.5rem 0 3rem",
               borderRadius: "0 0 1rem 1rem",
               height: "2rem",
             }}
           ></div>
-          <HomeSlideshow />
           <Resume />
         </div>
       </div>
