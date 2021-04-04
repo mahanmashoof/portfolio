@@ -63,7 +63,7 @@ function Home() {
             </div>
           </div>
 
-          <h3 style={{ margin: '1rem 0' }}>Tech-stack & Projects</h3>
+          <h3 style={{ margin: '1rem 0' }}>Projects & Tech-stack</h3>
           <div className="stack-div">
             <div className="container">
               <TechCarousel />

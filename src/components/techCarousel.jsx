@@ -18,6 +18,9 @@ const TechCarousel = () => {
             <img src="/tech-icons/github.png" alt="" />
           </div>
           <div className="slide-banner">
+            <img src="/tech-icons/heroku.png" alt="" />
+          </div>
+          <div className="slide-banner">
             <img src="/tech-icons/html.png" alt="" />
           </div>
           <div className="slide-banner">
@@ -28,6 +31,9 @@ const TechCarousel = () => {
           </div>
           <div className="slide-banner">
             <img src="/tech-icons/jquery.png" alt="" />
+          </div>
+          <div className="slide-banner">
+            <img src="/tech-icons/netlify.png" alt="" />
           </div>
           <div className="slide-banner">
             <img src="/tech-icons/next-js.svg" alt="" />
@@ -63,6 +69,9 @@ const TechCarousel = () => {
             <img src="/tech-icons/github.png" alt="" />
           </div>
           <div className="slide-banner">
+            <img src="/tech-icons/heroku.png" alt="" />
+          </div>
+          <div className="slide-banner">
             <img src="/tech-icons/html.png" alt="" />
           </div>
           <div className="slide-banner">
@@ -73,6 +82,9 @@ const TechCarousel = () => {
           </div>
           <div className="slide-banner">
             <img src="/tech-icons/jquery.png" alt="" />
+          </div>
+          <div className="slide-banner">
+            <img src="/tech-icons/netlify.png" alt="" />
           </div>
           <div className="slide-banner">
             <img src="/tech-icons/next-js.svg" alt="" />
