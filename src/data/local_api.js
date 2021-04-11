@@ -114,7 +114,7 @@ const ProjPicLinkData = [
     },
     {
       id:7,
-      url: "https://site-inova.herokuapp.com/",
+      url: "http://inovaimobiliaria.net/",
       imgSrc : "icons/siIcon.png",
       descr: 'Inova company and real estate presentation SPA ',
       tech: 'React.js | Next.js'
