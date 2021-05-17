@@ -70,6 +70,14 @@ function Home() {
             </div>
           </div>
           <Carousel fade={true} indicators={false} interval={2500}>
+          <Carousel.Item>
+              <WebPicLinks
+                url={WebPicLinkData[7].url}
+                imgSrc={WebPicLinkData[7].imgSrc}
+                descr={WebPicLinkData[7].descr}
+                tech={WebPicLinkData[7].tech}
+              />
+            </Carousel.Item>
             <Carousel.Item>
               <WebPicLinks
                 url={WebPicLinkData[6].url}

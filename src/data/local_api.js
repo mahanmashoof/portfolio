@@ -118,6 +118,13 @@ const ProjPicLinkData = [
       imgSrc : "icons/siIcon.png",
       descr: 'Inova company and real estate presentation SPA ',
       tech: 'React.js | Next.js'
+    },
+    {
+      id:8,
+      url: "http://cafecomdelmo.herokuapp.com/",
+      imgSrc : "icons/cafeIcon.png",
+      descr: 'Inova company Internal use video gallery ',
+      tech: 'React.js | PHP/Laravel'
     }
   ];
 
